@@ -1,0 +1,217 @@
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#immagine {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18%;
+}
+#immagine2:hover {
+  filter:blur(5px);
+}
+#immagine2 {
+  width: 50%;
+  position: relative;
+  left: 0%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  filter:saturate(8);
+}
+#immagine3:hover {
+  filter:blur(5px);
+}
+#immagine3 {
+  width: 50%;
+  position: relative;
+  left: 0%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+#bottone1 {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  margin-bottom: 10%;
+}
+#bottone2 {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  margin-bottom: 10%;
+}
+#siringa {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  bottom: 10%;
+}
+#form {
+  position: relative;
+  left: 25%;
+}
+#accedi {
+  position: relative;
+  left: 100%;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+
+
+.testimonials {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #629aee;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+header.masthead .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+header.masthead h1 {
+  font-size: 2rem;
+  color: black;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+ }
+  header.masthead h1 {
+    font-size: 3rem;
+ }
+}
+
+
+.formerrato {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.headerform {
+  padding-top: 8rem!important;
+  padding-bottom: 4rem!important;
+}
+
+.elemdosi {
+  position: relative;
+  right: 1%;
+  bottom: 100%;
+}
+
+#primuladosi{
+  width: 50%;
+}
+
+#primulaheader {
+  height: 50px;
+}
+
+.mappa{
+  border: 0;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#divmedico {
+  padding: 4rem!important;
+}
+
+#hmedico {
+  margin-top: 5%;
+}
+
+.coppia {
+  text-align: center;
+}
+
+#dotthead {
+  float: right;
+  margin: 0;
+  margin-top: 1.5%;
+  width: 50%;
+}
+
+.navbar {
+  z-index:1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 3px solid;
+}
+
+#prenotaora {
+  color: #383838;
+}
+
+.formelem {
+  width: 95%;
+}

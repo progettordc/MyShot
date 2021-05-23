@@ -1,0 +1,18 @@
+Richiesta pagina non valida
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"file_log/info.log"}
+Richiesta pagina non valida
+Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: api.gitub.com. is not in the cert's altnames: DNS:*.mytrafficmanagement.com, DNS:mytrafficmanagement.com
+Richiesta pagina non valida
+Richiesta pagina non valida
+Richiesta pagina non valida
+Richiesta pagina non valida
+error: database "progettordc" does not exist
+error: database "progettordc" does not exist
+error: relation "prenotazioni" does not exist
+Richiesta pagina non valida
+Richiesta pagina non validaRichiesta pagina non valida
+Richiesta pagina non valida
+Error: Client network socket disconnected before secure TLS connection was established
+Error: getaddrinfo ENOTFOUND api.telegram.org
+Error: getaddrinfo ENOTFOUND api.telegram.org
+Richiesta pagina non valida
