@@ -1,0 +1,98 @@
+p {
+    display: inline;
+}
+
+#cf {
+    position: relative;
+    float: left;
+    margin-left: 1%;
+}
+
+#la {
+    position: relative;
+    float: right;
+    margin-right: 20%;
+    animation-duration: 1.5s;
+    animation-name: slideinright;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+#alto {
+    height: 3.5rem;
+    color: rgb(41, 41, 41);
+    margin-top: 1.5%;
+}
+
+#divif {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 950px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 1.5%;
+}
+
+#primula {
+    height: 70%;
+    margin-top: 0.5%;
+    position: relative;
+    float: left;
+    margin-left: 20%;
+    animation-duration: 1.5s;
+    animation-name: slideinleft;
+}
+  
+@keyframes slideinleft {
+    from {
+      margin-left: 0%;
+    }
+  
+    to {
+      margin-left: 20%;
+    }
+}
+
+@keyframes slideinright {
+    from {
+      margin-right: 0%;
+    }
+  
+    to {
+      margin-right: 20%;
+    }
+}
+
+
+.bg {
+    animation:slide 4s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(51, 117, 204) 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.4;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+    height: 100%;
+}
+  
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:5s;
+}
+  
+.bg3 {
+    animation-duration:6s;
+}
+
+@keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+    100% {
+        transform:translateX(25%);
+    }
+}

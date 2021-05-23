@@ -1,0 +1,7 @@
+{
+    "name": "API Software gestionale prenotazione vaccini",
+    "version": "1.0.0",
+    "title": "API",
+    "url" : "http://localhost:3000",
+    "sampleUrl" : "http://localhost:3000"
+}
